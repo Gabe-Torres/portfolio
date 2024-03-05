@@ -1,15 +1,15 @@
 const INFO = {
 	main: {
 		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		name: "Gabriel Torres.",
+		email: "thomastgtorres21@gmail.com",
 		logo: "../logo.jpg",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		twitter: "https://twitter.com/gt_codez/",
+		github: "https://github.com/Gabe-Torres",
+		linkedin: "https://www.linkedin.com/in/gabrieltt/",
 	},
 
 	homepage: {

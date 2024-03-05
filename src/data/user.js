@@ -3,16 +3,13 @@ const INFO = {
 		title: "Reactfolio by truethari",
 		name: "Tharindu N.",
 		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		logo: "../logo.jpg",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
 		github: "https://github.com/",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
 	},
 
 	homepage: {

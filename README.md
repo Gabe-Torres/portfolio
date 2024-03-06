@@ -118,7 +118,7 @@ Directory: `/src/data/`
 
     The SEO.js file is a module that contains an array of objects, with each object representing metadata for a specific page of a React website. The purpose of this file is to centralize and manage the SEO (Search Engine Optimization) information for different pages.
 
-    Each object in the SEO array has the following properties:
+    Each object in the  array has the following properties:
 
     `page`: Represents the page name or identifier. It helps in mapping the SEO data to the appropriate page.
 

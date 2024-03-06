@@ -84,6 +84,26 @@
 	margin-left: -30px;
 }
 
+.tech-exploring-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start; /* Aligns the sections to the top */
+}
+
+.homepage-technologies {
+	margin-top: 70px;
+	width: 100%; /* Adjust this value as needed */
+}
+
+.exploring-container {
+	width: 60%; /* Adjust this value as needed */
+}
+
+.homepage-technologies h2 {
+	margin-bottom: 5px; /* Adjust the spacing below the title */
+	/* Add more styling as needed */
+}
+
 .homepage-article {
 	padding-bottom: 5px;
 }

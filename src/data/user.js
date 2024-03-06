@@ -13,67 +13,68 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Backend focused Software Engineer, and amateur anthropologist.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm a Backend Software Engineer with a solid foundation in social science and a background of 5 years in customer service. My skill set revolves around collaboration, strategic thinking, and software development. I'm motivated to apply my problem-solving skills and tech passion to a fulfilling career in software development.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I'm Gabe, and you've landed on my little corner of the internet.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"With a strong foundation in software development, I’ve got the technical know-how to tackle a wide range of tech challenges head-on. I believe in the power of teamwork and perform best when working in collaborative environments- in my experience, the best results come when I am able to combine my strengths together with others. Five years of experience of customer service taught me that nothing is more important than keeping your users happy and communication clear. But ultimately, I aspire to contribute my skills to projects that make a positive social impact. Whether it's working with non-profit organizations or engaging in projects that help others in meaningful ways, I am driven by the opportunity to make a difference.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Coding is not only my profession of choice, but it's also a hobby! My focus is on making impactful projects that make a difference, but here are some applications that I'm currently working on that express my creative side.",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Collection of projects that describe what I'm currently working on, and what I'm passionate about. I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
 	},
 
+	// technologies: [
+	// 	{
+	// 			name: "Ruby",
+	// 			badge: "https://img.shields.io/badge/Ruby-%23CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white"
+	// 	},
+	// 	{
+	// 			name: "Rails",
+	// 			badge: "https://img.shields.io/badge/Rails-%23CC0000.svg?&style=for-the-badge&logo=ruby-on-rails&logoColor=white"
+	// 	},
+	// 	{
+	// 			name: "React",
+	// 			badge: "https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"
+	// 	},
+	// 	],
 	projects: [
 		{
-			title: "Project 1",
+			title: "Foodie Brain",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"An application that allows users to mark and share their favorite food spots and dishes on a map. Establishes a connection between two repos using GraphQL and Apollo Service.",
+			logo: "../Foodie-Brain.jpg",
+			TechStack: "Tech-Stack and Tools: Ruby on Rails, React, GraphQL, Apollo Service, Heroku, CircleCI, Git, GitHub, Postman, PostgreSQL, AWS",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://foodie-brain-4c71bb461e4b.herokuapp.com/",
+			images: ["../foodie_home.png", "../foodie1.png", "../foodie2.png", "../foodie3.png"],
+			githubRepo: "https://github.com/Foodie-Brain/be_foodie",
 		},
 
 		{
-			title: "Project 2",
+			title: "Spellbinder",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"The Spellbinder project is a web development initiative for Magic: The Gathering, featuring dynamic API integration, custom search endpoints, and a responsive frontend designed with Bootstrap. It includes secure user authentication via Google OAuth and a well-structured database for optimal data management.",
+			logo: "../Spell-binder.jpg",
+			TechStack: "Tech-Stack and Tools: ActiveRecord, Bootstrap, CircleCI, Git, Heroku, PostgreSQL, Postman, Rails, Ruby, User Authentication",
+			githubRepo: "https://github.com/orgs/Spell-Binder-V1/repositories",
+			images: ['../spellbinder1.png', '../spellbinder2.png', '../spellbinder3.png', '../spellbinder4.png'],
 		},
 
 		{
-			title: "Project 3",
+			title: "Sweater Weather",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"This service aggregates data from external sources, requires user authentication, offers CRUD operations, error handling, and undergoes extensive testing, including mocking external APIs with VCR and utilizing Postman-friendly test automation.",
+			TechStack: "Tech-Stack and Tools: Ruby on Rails, Heroku, CircleCI, Git, GitHub, Postman, PostgreSQL ",
+			logo: "../sweater-weather.jpg",
+			githubRepo: "https://github.com/Gabe-Torres/sweater-weather",
+			images: ["../sweaterweather1.png", "../sweaterweather2.png", "../sweaterweather3.png", "../sweaterweather4.png"],
 		},
 	],
 };

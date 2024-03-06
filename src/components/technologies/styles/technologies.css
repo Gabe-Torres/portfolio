@@ -1,0 +1,25 @@
+@import "../../../data/styles.css";
+
+/* .technologies-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.technology-badge img {
+  height: 30px; /* Adjust the badge size as needed */
+
+.carousel-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.tech-badge {
+  width: 50px; /* Set the desired width */
+  height: 50px; /* Set the desired height */
+  object-fit: contain; /* Ensure the image is scaled correctly */
+}

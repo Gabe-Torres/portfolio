@@ -30,20 +30,20 @@ const INFO = {
 			"Collection of projects that describe what I'm currently working on, and what I'm passionate about. I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
 	},
 
-	technologies: [
-		{
-				name: "Ruby",
-				badge: "https://img.shields.io/badge/Ruby-%23CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white"
-		},
-		{
-				name: "Rails",
-				badge: "https://img.shields.io/badge/Rails-%23CC0000.svg?&style=for-the-badge&logo=ruby-on-rails&logoColor=white"
-		},
-		{
-				name: "React",
-				badge: "https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"
-		},
-		],
+	// technologies: [
+	// 	{
+	// 			name: "Ruby",
+	// 			badge: "https://img.shields.io/badge/Ruby-%23CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white"
+	// 	},
+	// 	{
+	// 			name: "Rails",
+	// 			badge: "https://img.shields.io/badge/Rails-%23CC0000.svg?&style=for-the-badge&logo=ruby-on-rails&logoColor=white"
+	// 	},
+	// 	{
+	// 			name: "React",
+	// 			badge: "https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"
+	// 	},
+	// 	],
 	projects: [
 		{
 			title: "Foodie Brain",

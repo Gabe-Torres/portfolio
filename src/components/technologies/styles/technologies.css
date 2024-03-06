@@ -1,6 +1,6 @@
 @import "../../../data/styles.css";
 
-.technologies-section {
+/* .technologies-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,4 +10,10 @@
 
 .technology-badge img {
   height: 30px; /* Adjust the badge size as needed */
+
+.carousel-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 60px;
 }

@@ -12,39 +12,44 @@ const Technologies = () => {
         infiniteLoop={true}
         interval={2000}
         showStatus={false}
+        showIndicators={false}
+        showArrows={true}
+        swipeable={true}
+
+
     >
         <div>
-            <img src="ruby-rails.svg" alt="Ruby on Rails" />
+            <img src="ruby-rails.svg" alt="Ruby on Rails" className="tech-badge" />
         </div>
         <div>
-            <img src="ruby.svg" alt="Ruby" />
+            <img src="ruby.svg" alt="Ruby" className="tech-badge" />
         </div>
         <div>
-            <img src="git.svg" alt="git" />
+            <img src="git.svg" alt="git" className="tech-badge" />
         </div>
         <div>
-            <img src="github.svg" alt="github" />
+            <img src="github.svg" alt="github" className="tech-badge" />
         </div>
         <div>
-            <img src="postgresql.svg" alt="postgresql" />
+            <img src="postgresql.svg" alt="postgresql" className="tech-badge" />
         </div>
         <div>
-            <img src="postman.svg" alt="postman" />
+            <img src="postman.svg" alt="postman" className="tech-badge" />
         </div>
         <div>
-            <img src="heroku.svg" alt="heroku" />
+            <img src="heroku.svg" alt="heroku" className="tech-badge" />
         </div>
         <div>
-            <img src="circle-ci.svg" alt="circleci" />
+            <img src="circle-ci.svg" alt="circleci" className="tech-badge" />
         </div>
         <div>
-            <img src="html.svg" alt="html" />
+            <img src="html.svg" alt="html" className="tech-badge" />
         </div>
         <div>
-            <img src="markdown.svg" alt="markdown" />
+            <img src="markdown.svg" alt="markdown" className="tech-badge" />
         </div>
         <div>
-            <img src="css.svg" alt="css" />
+            <img src="css.svg" alt="css" className="tech-badge" />
         </div>
         {/* Add more technology icons */}
     </Carousel>

@@ -22,6 +22,7 @@ import myArticles from "../data/articles";
 import "./styles/homepage.css";
 
 import Technologies from "../components/technologies/technologies";
+import Exploring from "../components/exploring/exploring";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -146,10 +147,15 @@ const Homepage = () => {
 							</a>
 						</div>
 						
-						<div className="homepage-technologies">
-        			<Technologies />
-    				</div>
-
+						<div className="tech-exploring-container">
+							<div className="homepage-technologies">
+							<h2>Tech Stack</h2>
+									<Technologies />
+							</div>
+							<div className="exploring-container">
+									<Exploring />
+							</div>
+						</div>
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
@@ -171,12 +177,10 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
-
 							<div className="homepage-works">
 								<Works />
 							</div>
 						</div>
-
 						<div className="page-footer">
 							<Footer />
 						</div>

@@ -21,29 +21,15 @@ const INFO = {
 	about: {
 		title: "I'm Gabe, and you've landed on my little corner of the internet.",
 		description:
-			"With a strong foundation in software development, I’ve got the technical know-how to tackle a wide range of tech challenges head-on. I believe in the power of teamwork and perform best when working in collaborative environments- in my experience, the best results come when I am able to combine my strengths together with others. Five years of experience of customer service taught me that nothing is more important than keeping your users happy and communication clear. But ultimately, I aspire to contribute my skills to projects that make a positive social impact. Whether it's working with non-profit organizations or engaging in projects that help others in meaningful ways, I am driven by the opportunity to make a difference.",
+			"With a strong foundation in software development, I have the technical know-how to tackle a wide range of tech challenges head-on. I believe in the power of teamwork and perform best when working in collaborative environments- in my experience, the best results come when I am able to combine my strengths together with others. Five years of experience of customer service taught me that nothing is more important than keeping your users happy and communication clear. But ultimately, I aspire to contribute my skills to projects that make a positive social impact. Whether it's working with non-profit organizations or engaging in projects that help others in meaningful ways, I am driven by the opportunity to make a difference.",
 	},
 
 	articles: {
-		title: "Coding is not only my profession of choice, but it's also a hobby! My focus is on making impactful projects that make a difference, but here are some applications that I'm currently working on that express my creative side.",
+		title: "Coding is not only my profession of choice, but also a hobby. Here are some applications that I'm currently working on that express my creative side.",
 		description:
-			"Collection of projects that describe what I'm currently working on, and what I'm passionate about. I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
+			"Collection of projects that describe what I'm currently working on. I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
 	},
 
-	// technologies: [
-	// 	{
-	// 			name: "Ruby",
-	// 			badge: "https://img.shields.io/badge/Ruby-%23CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white"
-	// 	},
-	// 	{
-	// 			name: "Rails",
-	// 			badge: "https://img.shields.io/badge/Rails-%23CC0000.svg?&style=for-the-badge&logo=ruby-on-rails&logoColor=white"
-	// 	},
-	// 	{
-	// 			name: "React",
-	// 			badge: "https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"
-	// 	},
-	// 	],
 	projects: [
 		{
 			title: "Foodie Brain",

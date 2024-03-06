@@ -1,0 +1,13 @@
+@import "../../../data/styles.css";
+
+.technologies-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.technology-badge img {
+  height: 30px; /* Adjust the badge size as needed */
+}

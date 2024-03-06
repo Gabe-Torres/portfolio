@@ -21,6 +21,8 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
+import Technologies from "../components/technologies/technologies";
+
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -143,6 +145,10 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
+						
+						<div className="homepage-technologies">
+        			<Technologies />
+    				</div>
 
 						<div className="homepage-projects">
 							<AllProjects />

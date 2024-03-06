@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logo, title, description, linkText, link, techStack, images } = props;
+	const { logo, title, description, linkText, link, techStack, images, githubRepo } = props;
 	const [modalOpen, setModalOpen] = useState(false);
 	const [selectedImage, setSelectedImage] = useState(null);
 
@@ -46,6 +47,14 @@ const Project = (props) => {
 											<div className="project-link-text">
 													<Link to={link}>{linkText}</Link>
 											</div>
+											<div className="project-github-link">
+												<div className="project-link-icon">
+														<FontAwesomeIcon icon={faGithub} />
+												</div>
+												<div className="project-link-text">
+														<a href={githubRepo} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+												</div>
+										</div>
 									</div>
 							</div>
 					</div>

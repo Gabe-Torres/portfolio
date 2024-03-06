@@ -40,6 +40,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://foodie-brain-4c71bb461e4b.herokuapp.com/",
 			images: ["../foodie_home.png", "../foodie1.png", "../foodie2.png", "../foodie3.png"],
+			githubRepo: "https://github.com/Foodie-Brain/be_foodie",
 		},
 
 		{
@@ -47,10 +48,9 @@ const INFO = {
 			description:
 				"The Spellbinder project is a web development initiative for Magic: The Gathering, featuring dynamic API integration, custom search endpoints, and a responsive frontend designed with Bootstrap. It includes secure user authentication via Google OAuth and a well-structured database for optimal data management.",
 			logo: "../Spell-binder.jpg",
-			TechStack: "Tech-Stack and Tools: Ruby on Rails, React, Bootstrap, Heroku, CircleCI, Git, GitHub, Postman, PostgreSQL ",
-			linkText: "View Project",
-			link: "https://github.com/orgs/Spell-Binder-V1/repositories",
-			images: [],
+			TechStack: "Tech-Stack and Tools: ActiveRecord, Bootstrap, CircleCI, Git, Heroku, PostgreSQL, Postman, Rails, Ruby, User Authentication",
+			githubRepo: "https://github.com/orgs/Spell-Binder-V1/repositories",
+			images: ['../spellbinder1.png', '../spellbinder2.png', '../spellbinder3.png', '../spellbinder4.png'],
 		},
 
 		{
@@ -59,9 +59,8 @@ const INFO = {
 				"This service aggregates data from external sources, requires user authentication, offers CRUD operations, error handling, and undergoes extensive testing, including mocking external APIs with VCR and utilizing Postman-friendly test automation.",
 			TechStack: "Tech-Stack and Tools: Ruby on Rails, Heroku, CircleCI, Git, GitHub, Postman, PostgreSQL ",
 			logo: "../sweater-weather.jpg",
-			linkText: "View Project",
-			link: "https://github.com/Gabe-Torres/sweater-weather",
-			images: [],
+			githubRepo: "https://github.com/Gabe-Torres/sweater-weather",
+			images: ["../sweaterweather1.png", "../sweaterweather2.png", "../sweaterweather3.png", "../sweaterweather4.png"],
 		},
 	],
 };

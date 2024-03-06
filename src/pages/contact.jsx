@@ -65,8 +65,16 @@ const Contact = () => {
 							.
 							Thanks again for your interest, and I look forward
 							to hearing from you!
+							Click the thumbnail below for a copy of my resume 
 						</div>
 					</div>
+					<a href="/GTRESUME.pdf" target="_blank">
+							<img src="/gtresumesmall.png" alt="Resume Preview" width="200" style={{border: '1px solid #ccc',
+																																										boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.2)',
+																																										margin: '10px'}} />
+					</a>
+
+					{/* <iframe src="/GTRESUME.pdf#page=1&view=FitH" type="application/pdf" width="600" height="600">  </iframe> */}
 
 					<div className="socials-container">
 						<div className="contact-socials">

@@ -29,7 +29,7 @@
 .meter {
   height: 10px;
   max-width: 150px; /* Adjust the width as needed */
-  background-color: #ddd;
+  background-color: #808181;
   flex-grow: 1;
   margin-left: 10px;
   border-radius: 5px;
@@ -47,5 +47,36 @@
   color: white;
 }
 
+@keyframes float {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
 
+.exploring-section h2 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  animation: float 2s ease-in-out infinite;
+}
 
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-appear-active,
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

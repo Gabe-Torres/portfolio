@@ -150,11 +150,11 @@ const Homepage = () => {
 						
 						<div className="tech-exploring-container">
 							<div className="homepage-technologies">
-							<h2>Tech Stack</h2>
+							<h1>Tech Stack</h1>
 									<Technologies />
 							</div>
 							<div className="exploring-container">
-									<Exploring />
+									<h2><Exploring /> </h2>
 							</div>
 						</div>
 						<div className="homepage-projects">

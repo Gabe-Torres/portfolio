@@ -11,19 +11,27 @@ const Project = (props) => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [selectedImage, setSelectedImage] = useState(null);
 
-	const openModal = (image) => {
-			setSelectedImage(image);
-			setModalOpen(true);
-	};
+	const openModal = (image, event) => {
+    event.stopPropagation();
+    setSelectedImage(image);
+    setModalOpen(true);
+};
+
 
 	const closeModal = () => {
 			setModalOpen(false);
 			setSelectedImage(null);
 	};
 
+	const [isExpanded, setIsExpanded] = useState(false);
+
+	const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+		};
+
 	return (
 			<React.Fragment>
-					<div className="project">
+<div className="project" onClick={toggleExpansion} style={{ maxHeight: isExpanded ? '1000px' : '350px' }}>
 							<div className="project-container">
 									<div className="project-logo">
 											<img src={logo} alt="logo" />
@@ -35,8 +43,8 @@ const Project = (props) => {
 									<div className="project-tech-stack">{techStack}</div>
 									<div className="project-images">
 											{images.map((image, index) => (
-													<div className="project-image" key={index} onClick={() => openModal(image)}>
-															<img src={image} alt={`Project ${title} - ${index + 1}`} />
+							<div className="project-image" key={index} onClick={(event) => openModal(image, event)}>
+							<img src={image} alt={`Project ${title} - ${index + 1}`} />
 													</div>
 											))}
 									</div>
@@ -56,15 +64,19 @@ const Project = (props) => {
 												</div>
 										</div>
 									</div>
+									<div className="expand-indicator">
+										<div className="arrow" style={{ transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)' }}></div>
+										{isExpanded ? 'Show Less' : 'Show More'}
+									</div>
 							</div>
 					</div>
 					{modalOpen && (
-							<div className="modal" onClick={closeModal} style={{ display: "block" }}>
-									<div className="modal-content">
-											<img src={selectedImage} alt="Selected" />
-									</div>
+						<div className={`modal ${modalOpen ? 'show' : ''}`} onClick={closeModal}>
+							<div className="modal-content">
+								<img src={selectedImage} alt="Selected" />
 							</div>
-					)}
+						</div>
+						)}
 			</React.Fragment>
 	);
 };

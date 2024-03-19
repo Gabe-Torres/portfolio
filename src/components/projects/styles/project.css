@@ -112,7 +112,7 @@
 
 .project-container {
 	padding: 30px;
-	padding-bottom: 50px; /* Adjust as needed */
+	padding-bottom: 50px; 
 }
 
 .project-images {
@@ -157,7 +157,7 @@
 	position: absolute;
 	right: 20px;
 	top: 50%;
-	bottom: -20px; /* Adjust as needed */
+	bottom: -20px;
 	width: 0;
 	height: 0;
 	border-left: 10px solid transparent;

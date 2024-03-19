@@ -65,9 +65,10 @@ function article_2() {
 		date: "14 Dec 2023",
 		title: "Campaign Planner Pro",
 		description:
-		"Campaign Planner Pro is a tool designed for Dungeons and Dragons (D&D) lovers." +
-		"Developed as a standalone Ruby on Rails application, it leverages the power of Rails 7 to provide an rememberable experience for players." +
-		"This application serves as a digital playbook, enabling users to organize and track every aspect of their D&D campaigns",
+		"Campaign Planner Pro is a Ruby on Rails monolith application designed as a digital playbook for Dungeons and Dragons players." +
+		"It enables users to easily organize and track their campaign settings, characters, and more, all in one place." +
+		"Leveraging the features of Rails 7, this tool provides an enjoyable and easy going experience, making game organization a breeze.",
+		
 		style: `
 		.article-content {
 			display: flex;
@@ -93,19 +94,23 @@ function article_2() {
 						This application is a side project that is still under development that I am working on with some family members. A little family bonding time.
 					<h2>Key Features:</h2>
 					<ul>
+						<li><strong>This project implements Devise for user auth </strong></li>
+						<li><strong>Implements Turbo 8, TurboFrames, SLIM views(MVC), Hotwire, Stimulus, and Tailwind CSS to make user UI enjoyable. </strong></li>
+						<li><strong>Utilizes a PostgreSQL database for server-side data storage and data management while ActiveRecord acts as the ORM </strong></li>
+						<li><strong>Unit tests, integration tests using Rails RSpec to ensure application reliability.  </strong></li>
 						<li><strong>Campaign Management: Easily manage your campaign details, ensuring a easy going gameplay experience. </strong></li>
-						<li><strong>NPCs: Maintain a list of Non-Playable Characters (NPCs) to enhance your storytelling </strong></li>
 					</ul>
 
 					<h2>Upcoming Enhancements: </h2>
 					<ul>
-						<li><strong>API Integration: Incorporate D&D APIs to provide users with resources and rules.  </strong></li>
-						<li><strong>Character Tracking: Keep detailed records of your playable characters, including their stats, equipment, and settings </strong></li>
+						<li><strong>API Integration:</strong> Incorporate D&D APIs to provide users with access to resources and rules directly within the app.</li>
+						<li><strong>Character Tracking:</strong> Enable detailed tracking of playable characters, including their stats, equipment, and backstory.</li>
+						<li><strong>Collaborative Campaigns:</strong> Allow users to share their campaigns with other players for a more collaborative and interactive experience.</li>
 						<li><strong><a href="https://github.com/Campaign-Planner-Pro/Campaign-Planner-Pro">Check out the GitHub repo here while we build the app from the ground up</a></strong></li>
 					</ul>
 					</div>
 					<img
-						src="/Campaign.png"
+						src="/Campaign.svg"
 						alt="campaign-planner"
 						className="campaign-planner"
 					/>

@@ -25,7 +25,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Coding is not only my profession of choice, but also a hobby. Here are some applications that I'm currently working on that express my creative side.",
+		title: "Here are some applications that I'm currently working on that express my creative side.",
 		description:
 			"Collection of projects that describe what I'm currently working on. I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
 	},

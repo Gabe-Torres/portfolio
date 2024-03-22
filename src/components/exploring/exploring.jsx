@@ -18,7 +18,9 @@ const Exploring = () => {
         <ul>
             {languages.map((language, index) => (
                 <li key={index}>
-                    <img src={language.badge} alt={language.name} className="language-badge" />
+                    <div className="badge-container">
+                        <img src={language.badge} alt={language.name} className="language-badge" />
+                    </div>
                     <div className="meter">
                         <span style={{ width: `${language.proficiency}%`, backgroundColor: 'rgb(0,255,0)' }}></span>
                     </div>

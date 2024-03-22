@@ -16,7 +16,7 @@ const Technologies = () => {
                 showArrows={true}
                 swipeable={true}
                 centerMode={true}
-                centerSlidePercentage={25} // Adjust this value based on the number of badges and their size
+                centerSlidePercentage={17} // Adjust this value based on the number of badges and their size
             >
                 <div>
                     <img src="ruby-rails.svg" alt="Ruby on Rails" className="tech-badge" />
@@ -51,7 +51,9 @@ const Technologies = () => {
                 <div>
                     <img src="css.svg" alt="css" className="tech-badge" />
                 </div>
-                {/* Add more technology icons */}
+                <div>
+                    <img src="vscode.svg" alt="css" className="tech-badge" />
+                </div>
             </Carousel>
         </div>
     );

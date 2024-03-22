@@ -89,6 +89,7 @@
 	flex-direction: column; /* Stack the children vertically */
   align-items: center; 
 	width: 100%;
+	display: flex;
 }
 
 .homepage-technologies {
@@ -98,12 +99,15 @@
 }
 
 .exploring-container {
-	margin-top: -100px; 
+	margin-top: -100px;
 	display: flex;
   justify-content: center; /* Center children horizontally */
   align-items: center; /* Center children vertically (if needed) */
   width: 100%;
 	flex-wrap: wrap;
+}
+.exploring-container .meter {
+  margin-left: 50px; /* Move the meter 50px to the left */
 }
 
 .homepage-technologies h2 {

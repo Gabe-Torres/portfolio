@@ -7,8 +7,9 @@
 }
 
 .exploring-section {
-  margin-top: 30px;
+  margin-top: 200px;
   padding: 20px;
+  justify-content: center;
 }
 
 .exploring-section h2 {
@@ -28,9 +29,9 @@
 
 .meter {
   height: 10px;
-  max-width: 150px; /* Adjust the width as needed */
-  background-color: #808181;
+  max-width: 300px;
   flex-grow: 1;
+  background-color: #808181;
   margin-left: 10px;
   border-radius: 5px;
   overflow: hidden;

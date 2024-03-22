@@ -154,7 +154,7 @@ const Homepage = () => {
 									<Technologies />
 							</div>
 							<div className="exploring-container">
-									<h2><Exploring /> </h2>
+									<h3><Exploring /> </h3>
 							</div>
 						</div>
 						<div className="homepage-projects">

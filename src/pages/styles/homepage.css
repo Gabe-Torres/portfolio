@@ -86,17 +86,24 @@
 
 .tech-exploring-container {
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start; /* Aligns the sections to the top */
+	flex-direction: column; /* Stack the children vertically */
+  align-items: center; 
+	width: 100%;
 }
 
 .homepage-technologies {
 	margin-top: 70px;
+	margin-bottom: -100px;
 	width: 100%; /* Adjust this value as needed */
 }
 
 .exploring-container {
-	width: 60%; /* Adjust this value as needed */
+	margin-top: -100px; 
+	display: flex;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically (if needed) */
+  width: 100%;
+	flex-wrap: wrap;
 }
 
 .homepage-technologies h2 {

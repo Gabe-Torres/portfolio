@@ -11,17 +11,47 @@
 .technology-badge img {
   height: 30px; /* Adjust the badge size as needed */
 
-.carousel-container {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  margin-top: 30px;
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel .slide.selected .tech-badge {
+  box-shadow: 0 0 10px #a5fe00; /* Green glow */
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+
+
+.carousel-container::before,
+.carousel-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 2;
+}
+
+.carousel-container::after {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.carousel-container::before {
+    left: 0;
+}
+.carousel .slide {
+  padding: 0 10px; /* Add padding to create space between slides */
 }
 
 .tech-badge {
-  width: 50px; /* Set the desired width */
-  height: 50px; /* Set the desired height */
-  object-fit: contain; /* Ensure the image is scaled correctly */
+  width: 40px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+
 }
 
 @keyframes float {
@@ -31,9 +61,10 @@
 }
 
 .homepage-technologies h1 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-weight: bold;
   font-style: italic;
   font-family: 'Courier New', Courier, monospace;
   animation: float 2s ease-in-out infinite;
+  text-align: center;
 }

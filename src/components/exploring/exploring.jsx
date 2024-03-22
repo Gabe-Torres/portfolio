@@ -6,8 +6,8 @@ import { CSSTransition } from 'react-transition-group';
 const Exploring = () => {
     const languages = [
         { name: 'Python', badge: "/python.svg", proficiency: 35 },
-        { name: 'React', badge: "/react.svg", proficiency: 35 },
-        { name: 'Tailwind css', badge: "/tailwindcss.svg", proficiency: 15 },
+        { name: 'React', badge: "/react.svg", proficiency: 45 },
+        { name: 'Tailwind css', badge: "/tailwindcss.svg", proficiency: 25 },
     ];
 
     return (

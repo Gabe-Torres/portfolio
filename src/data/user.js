@@ -49,6 +49,8 @@ const INFO = {
 				"The Spellbinder project is a web development initiative for Magic: The Gathering, featuring dynamic API integration, custom search endpoints, and a responsive frontend designed with Bootstrap. It includes secure user authentication via Google OAuth and a well-structured database for optimal data management.",
 			logo: "../Spell-binder.jpg",
 			TechStack: "Tech-Stack and Tools: ActiveRecord, Bootstrap, CircleCI, Git, Heroku, PostgreSQL, Postman, Rails, Ruby, User Authentication",
+			linkText: "View Project",
+			link: "https://spellbinderfe-80bc5c8a58ba.herokuapp.com/",
 			githubRepo: "https://github.com/orgs/Spell-Binder-V1/repositories",
 			images: ['../spellbinder1.png', '../spellbinder2.png', '../spellbinder3.png', '../spellbinder4.png'],
 		},

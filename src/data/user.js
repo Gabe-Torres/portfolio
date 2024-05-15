@@ -64,7 +64,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://thawing-citadel-30877-e399d2943313.herokuapp.com/",
 			githubRepo: "https://github.com/Gabe-Torres/blogger",
-			images: ['../', '../', '../', '../'],
+			images: ['../watsup2.png', '../watsup3.png', '../watsup4.png', '../watsup5.png'],
 		},
 
 		{

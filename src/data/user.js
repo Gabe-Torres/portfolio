@@ -56,6 +56,18 @@ const INFO = {
 		},
 
 		{
+			title: "Watsup",
+			description:
+				"An app for users to share wats up and whats on their mind. This application is a monolith built with Ruby on Rails. This project implements Devise(user auth), Turbo 8, TurboFrame, Hotwire, Stimulus, and Tailwind CSS/Bootstrap to make user UI enjoyable.",
+			logo: "../watsup.png",
+			TechStack: "Tech-Stack and Tools: Bootstrap, CircleCI, Git, Heroku, PostgreSQL, Rails, Ruby, AWS S3, devise, Turbo 8, TurboFrame, Hotwire, Stimulus, Tailwind CSS",
+			linkText: "View Project",
+			link: "https://thawing-citadel-30877-e399d2943313.herokuapp.com/",
+			githubRepo: "https://github.com/Gabe-Torres/blogger",
+			images: ['../watsup2.png', '../watsup3.png', '../watsup4.png', '../watsup5.png'],
+		},
+
+		{
 			title: "Sweater Weather",
 			description:
 				"This service aggregates data from external sources, requires user authentication, offers CRUD operations, error handling, and undergoes extensive testing, including mocking external APIs with VCR and utilizing Postman-friendly test automation.",

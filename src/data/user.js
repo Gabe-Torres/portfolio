@@ -56,6 +56,18 @@ const INFO = {
 		},
 
 		{
+			title: "",
+			description:
+				"",
+			logo: "",
+			TechStack: "Tech-Stack and Tools: ",
+			linkText: "View Project",
+			link: "",
+			githubRepo: "",
+			images: ['../', '../', '../', '../'],
+		},
+
+		{
 			title: "Sweater Weather",
 			description:
 				"This service aggregates data from external sources, requires user authentication, offers CRUD operations, error handling, and undergoes extensive testing, including mocking external APIs with VCR and utilizing Postman-friendly test automation.",

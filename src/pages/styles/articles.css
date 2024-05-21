@@ -50,3 +50,11 @@
 		width: 100% !important;
 	}
 }
+.homepage-articles h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  animation: float 2s ease-in-out infinite;
+  text-align: center;
+}

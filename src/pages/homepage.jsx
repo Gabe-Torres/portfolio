@@ -163,6 +163,7 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
+							<h1>Developing</h1>
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"

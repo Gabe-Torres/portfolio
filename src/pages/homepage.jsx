@@ -164,7 +164,7 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-							<h1>Developing</h1>
+							<h2>Developing</h2>
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"

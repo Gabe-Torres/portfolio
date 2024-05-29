@@ -25,9 +25,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Here are some applications that I'm currently working on that express my creative side.",
+		title: "Here are some applications that I'm currently working on.",
 		description:
-			"Collection of projects that describe what I'm currently working on. I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
+			"I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
 	},
 
 	projects: [

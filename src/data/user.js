@@ -21,7 +21,7 @@ const INFO = {
 	about: {
 		title: "I'm Gabe, and you've landed on my little corner of the internet.",
 		description:
-			"With a strong foundation in software development, I have the technical know-how to tackle a wide range of tech challenges head-on. I believe in the power of teamwork and perform best when working in collaborative environments- in my experience, the best results come when I am able to combine my strengths together with others. Five years of experience of customer service taught me that nothing is more important than keeping your users happy and communication clear. But ultimately, I aspire to contribute my skills to projects that make a positive social impact. Whether it's working with non-profit organizations or engaging in projects that help others in meaningful ways, I am driven by the opportunity to make a difference.",
+			"With a strong foundation in software development, I have the technical know-how to tackle a wide range of tech challenges head-on. I believe in the power of teamwork and perform best when working in collaborative environments- in my experience, the best results come when working alongside others. Previous experience in customer service taught me that nothing is more important than keeping your users happy and communication clear. But ultimately, I aspire to contribute my skills to projects that make a positive social impact. Whether it's working with non-profit organizations or engaging in projects that help others in meaningful ways, I am driven by the opportunity to make a difference.",
 	},
 
 	articles: {

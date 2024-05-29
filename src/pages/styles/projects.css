@@ -33,10 +33,10 @@
 }
 
 .homepage-projects h1 {
-  margin-bottom: 30px;
-  font-weight: bold;
+  margin-bottom: 10px;
+  font-weight: bolder;
   font-style: italic;
   font-family: 'Courier New', Courier, monospace;
   animation: bounce 2s ease-in-out infinite; /*#options: float, pulse, shake, spin, slide, bounce, flash, rubberBand, swing, tada, wobble, jello, heartBeat */
-  text-align: center;
+  text-align: left;
 }

@@ -50,11 +50,12 @@
 		width: 100% !important;
 	}
 }
-.homepage-articles h1 {
-  margin-bottom: 30px;
-  font-weight: bold;
+.homepage-articles h2 {
+  margin-bottom: 20px;
+  font-weight: bold; 
   font-style: italic;
   font-family: 'Courier New', Courier, monospace;
   animation: bounce 2s ease-in-out infinite; /*#options: float, pulse, shake, spin, slide, bounce, flash, rubberBand, swing, tada, wobble, jello, heartBeat */
-  text-align: center;
+  text-align: left;
+	margin-left: 35px;
 }

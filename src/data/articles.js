@@ -2,7 +2,7 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "8 Jan 2024",
+		// date: "8 Jan 2024",
 		title: "GT's Fortnite Tracker",
 		description:
 			"GT's Fortnite Tracker App is a user-friendly tool designed for Fortnite gamers." +
@@ -62,7 +62,7 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "14 Dec 2023",
+		// date: "14 Dec 2023",
 		title: "Campaign Planner Pro",
 		description:
 		"Campaign Planner Pro is a Ruby on Rails monolith application designed as a digital playbook for Dungeons and Dragons players." +

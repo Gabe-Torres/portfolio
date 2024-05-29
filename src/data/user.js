@@ -13,9 +13,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Backend focused Software Engineer, and amateur anthropologist.",
+		title: "Backend Software Engineer",
 		description:
-			"I'm a Backend Software Engineer with a solid foundation in social science and a background of 5 years in customer service. My skill set revolves around collaboration, strategic thinking, and software development. I'm motivated to apply my problem-solving skills and tech passion to a fulfilling career in software development.",
+			"I'm a Backend Software Engineer with a solid foundation in social science and a background in customer service. My skill set revolves around collaboration, strategic thinking, and software development. I'm motivated to apply my problem-solving skills and tech passion to projects that make a meaningful impact.",
 	},
 
 	about: {

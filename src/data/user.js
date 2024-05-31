@@ -34,7 +34,7 @@ const INFO = {
 		{
 			title: "Foodie Brain",
 			description:
-				"An application that allows users to mark and share their favorite food spots and dishes on a map. Establishes a connection between two repos using GraphQL and Apollo Service.",
+				"An application for marking and sharing favorite food spots and dishes on a map. Built with React and Ruby on Rails, it uses GraphQL and Apollo Service to connect two repositories, AWS S3 for image storage, and is deployed on Heroku.",
 			logo: "../Foodie-Brain.jpg",
 			TechStack: "Tech-Stack and Tools: Ruby on Rails, React, GraphQL, Apollo Service, Heroku, CircleCI, Git, GitHub, Postman, PostgreSQL, AWS",
 			linkText: "View Project",

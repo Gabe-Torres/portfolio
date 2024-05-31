@@ -58,7 +58,7 @@ const INFO = {
 		{
 			title: "Watsup",
 			description:
-				"An app for users to share wats up and whats on their mind. This application is a monolith built with Ruby on Rails. This project implements Devise(user auth), Turbo 8, TurboFrame, Hotwire, Stimulus, and Tailwind CSS/Bootstrap to make user UI enjoyable.",
+			"A platform for sharing thoughts, built with Ruby on Rails. Features include user authentication with Devise, image upload via AWS S3, responsive design using Bootstrap and Tailwind CSS, CRUD operations for articles, comments, and tags, unit and integration tests with Rails RSpec, continuous integration with CircleCI, and deployment on Heroku.",
 			logo: "../watsup.png",
 			TechStack: "Tech-Stack and Tools: Bootstrap, CircleCI, Git, Heroku, PostgreSQL, Rails, Ruby, AWS S3, devise, Turbo 8, TurboFrame, Hotwire, Stimulus, Tailwind CSS",
 			linkText: "View Project",

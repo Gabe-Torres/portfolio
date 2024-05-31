@@ -46,7 +46,7 @@ const INFO = {
 		{
 			title: "Spellbinder",
 			description:
-				"The Spellbinder project is a web development initiative for Magic: The Gathering, featuring dynamic API integration, custom search endpoints, and a responsive frontend designed with Bootstrap. It includes secure user authentication via Google OAuth and a well-structured database for optimal data management.",
+				"A project for Magic: The Gathering fans thats allows users to create custom decks with images and data from the Magic API for card details. Featuring dynamic API integration, custom search endpoints, and a responsive frontend designed with Bootstrap. It includes secure user authentication via Google OAuth, a well-structured database, extensive CRUD operations, RESTful API, and ActiveRecord SQL queries for efficient data fetching.",
 			logo: "../Spell-binder.jpg",
 			TechStack: "Tech-Stack and Tools: ActiveRecord, Bootstrap, CircleCI, Git, Heroku, PostgreSQL, Postman, Rails, Ruby, User Authentication",
 			linkText: "View Project",

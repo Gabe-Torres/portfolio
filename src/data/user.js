@@ -25,9 +25,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Here are some applications that I'm currently working on.",
+		title: "Open Source applications",
 		description:
-			"I'm always looking for new projects to work on, so if you have an idea, feel free to reach out to me!",
+			"Open Source projects are a great way to learn and grow as a developer while helping others. Here are some of the Open Source projects where I am active. Feel free to check them out and contribute if you're interested too!",
 	},
 
 	projects: [

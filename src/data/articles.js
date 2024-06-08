@@ -40,6 +40,7 @@ function article_1() {
 					<h2>List of Pull Request/Contributions:</h2>
 					<ul>
 						<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the CRUD method, create, for a model within the application's schema. It was a great learning experience to dive into a new codebase and communicate with other devs.</li>
+						<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins in the app to save time and not have to correct any incorrect url formatting. </li>
 					</ul>
 					</div>
 					<img

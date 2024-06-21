@@ -44,6 +44,18 @@ const INFO = {
 		},
 
 		{
+			title: "GTS Fortnite Tracker",
+			description:
+			"This web application enables users to check the latest skins and emotes available in the Fortnite item shop. Additionally, users can quickly search and view player stats. The application is designed as a microservice architecture, featuring a custom Ruby on Rails backend API and a React frontend. Key features include pagination for browsing items, Redis for caching, and background workers to manage daily updates and ensure the latest information is readily available.",
+			logo: "../gtsfortnitetrackerlogo.png",
+			TechStack: "Tech-Stack and Tools: React, Rails, Bulma, Git, Heroku, PostgreSQL, APIs, Redis",
+			linkText: "View Project",
+			link: "https://gts-fortnite-tracker-a0d0405c9f2a.herokuapp.com/",
+			githubRepo: "https://github.com/orgs/gts-fortnite-app/repositories",
+			images: ['../gt1.png', '../gt2.png', '../gt3.png', '../gt4.png'],
+		},
+
+		{
 			title: "Spellbinder",
 			description:
 				"A project for Magic: The Gathering fans thats allows users to create custom decks with images and data from the Magic API for card details. Featuring dynamic API integration, custom search endpoints, and a responsive frontend designed with Bootstrap. It includes secure user authentication via Google OAuth, a well-structured database, extensive CRUD operations, RESTful API, and ActiveRecord SQL queries for efficient data fetching.",

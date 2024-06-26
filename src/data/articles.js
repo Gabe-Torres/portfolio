@@ -55,6 +55,62 @@ function article_1() {
 	};
 }
 
+function article_2() {
+	return {
+		date: "2024",
+		title: "Ruby for Good - Pet Rescue",
+		description:
+		"The Pet Rescue app is derived from the Baja Pet Rescue Dog Adoption Application created by kasugaijin(GitHub) " +
+		"who wanted to give back to the grassroots organization from where he adopted his dog in Mexico by building them" +
+		"a web application. Pet Rescue is an application that makes it easy to connect shelters with people who are looking" +
+		"to adopt or foster pets.",
+		keywords: [
+			"The Benefits of Cloud Computing",
+			"Gabe",
+			"Gabriel Torres",
+			"Gabriel T",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						I am only a contributor to this project, but I am proud to be a part of it. This project is a part of the Ruby for Good organization, which is a group of Ruby developers who come together to build projects for non-profits.
+					<p>
+						The Pet Rescue app is derived from the Baja Pet Rescue Dog Adoption Application created by kasugaijin(GitHub) who wanted to give back to the grassroots organization 
+						from where he adopted his dog in Mexico by building them a web application. 
+						Pet Rescue is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
+					</p>
+			<ul>
+				<li><strong><a href="https://pet-rescue-f6df7ce0e850.herokuapp.com/">Check out the app here!</a></strong></li>
+			</ul>
+					<h2>List of Pull Request/Contributions:</h2>
+					<ul>
+					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/788">User Authentication</a></strong>: This PR involved adding user authentication to the Application Controller rather than calling it separately in every controller. It was challenging to track where existing tests needed updating throughout the application. It also required diving headfirst into Devise so the application could properly redirect unauthenticated users!</li>
+					</ul>
+					</div>
+					<img
+						src="/petrescue.png"
+						alt="fortnite-tracker"
+						className="fortnite-tracker"
+						style={{ width: "100%" }}
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
 //function article_2() {
 	//return {
 		// date: "14 Dec 2023",
@@ -115,6 +171,6 @@ function article_1() {
 // 	};
 // }
 
-const myArticles = [article_1];
+const myArticles = [article_1, article_2];
 
 export default myArticles;

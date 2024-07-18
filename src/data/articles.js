@@ -99,6 +99,7 @@ function article_2() {
 					<ul>
 					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/788">User Authentication</a></strong>: This PR involved adding user authentication to the Application Controller rather than calling it separately in every controller. It was challenging to track where existing tests needed updating throughout the application. It also required diving headfirst into Devise so the application could properly redirect unauthenticated users!</li>
 					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/856">Creating a new model</a></strong>: This PR involved creating the FormSubmission model and handling everything that came with it. I wrote the migrations, updated the database seeds, and modified FactoryBot to include the new model. I also updated all relevant associations in existing models like AdopterApplication. The seed file was adjusted to include the new data, and I created the necessary factories. Along the way, I updated the test suite to reflect these changes, resolving any seeding issues and test failures that popped up. </li>
+					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/873">Updating an existing model</a></strong>: This PR involved updating the SumittedAnswer model. This included changing its name within the database. I wrote the migrations, updated the existing and new references , and modified existing tests. I also updated all relevant associations in existing models. </li>
 					</ul>
 					</div>
 					<img

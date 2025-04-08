@@ -25,9 +25,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Open Source applications",
+		title: "Some of My Thoughts",
 		description:
-			"Open Source projects are a great way to learn and grow as a developer while helping others. Here are some of the Open Source projects where I am active. Feel free to check them out and contribute if you're interested too!",
+			"This is a place where I share and update on what I am doing, from code, to non tech based hobbies. I have this space to share more about who I am as person and engineer.",
 	},
 
 	projects: [

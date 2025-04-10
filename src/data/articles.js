@@ -68,7 +68,7 @@ function article_1() {
 						Pet Rescue is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
 					</p>
 			<ul>
-				<li><strong><a href="https://pet-rescue-f6df7ce0e850.herokuapp.com/">Check out the app here!</a></strong></li>
+				<li><strong><a href="https://homewardtails.org/">Check out the app here!</a></strong></li>
 			</ul>
 					<h2>List of Pull Request/Contributions:</h2>
 					<ul>
@@ -81,8 +81,8 @@ function article_1() {
 					</div>
 					<img
 						src="/petrescue.png"
-						alt="fortnite-tracker"
-						className="fortnite-tracker"
+						alt="homewardtails"
+						className="homewardtails"
 						style={{ width: "100%" }}
 					/>
 				</div>

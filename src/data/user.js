@@ -25,9 +25,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Some of My Thoughts",
+		title: "My Thoughts and Updates",
 		description:
-			"This is a place where I share and update on what I am doing, from code, to non tech based hobbies. I have this space to share more about who I am as person and engineer.",
+			"This is where I share insights and updates about what I’m working on. From coding projects to non-tech hobbies. It’s a space to give you a glimpse into who I am, both as a person and as an engineer.",
 	},
 
 	projects: [
@@ -47,6 +47,8 @@ const INFO = {
 			"This web application enables users to check the latest skins and emotes available in the Fortnite item shop. Additionally, users can quickly search and view player stats. The application is designed as a microservice architecture, featuring a custom Ruby on Rails backend API and a React frontend. Key features include pagination for browsing items, Redis for caching, and background workers to manage daily updates and ensure the latest information is readily available.",
 			logo: "../gtsfortnitetrackerlogo.png",
 			TechStack: "Tech-Stack and Tools: React, Rails, Bulma, Git, Heroku, PostgreSQL, APIs, Redis",
+			linkText: "View Project",
+			link: "https://gts-fortnite-tracker-a0d0405c9f2a.herokuapp.com/",
 			githubRepo: "https://github.com/orgs/gts-fortnite-app/repositories",
 			images: ['../gt1.png', '../gt2.png', '../gt3.png', '../gt4.png'],
 		},

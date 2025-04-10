@@ -3,7 +3,7 @@ import React from "react";
 function article_1() {
 	return {
 		date: "2025",
-		title: "Ruby for Good - Dedicated To Making The World Gooder",
+		title: "Open Source with Ruby for Good - Dedicated To Making The World Gooder",
 		description:
 			"Ruby for Good is a volunteer-driven nonprofit that develops specialized technology" +
 			"an software solutions for nonprofit organizations to bolster their critical mission.",
@@ -34,9 +34,12 @@ function article_1() {
 				`,
 		body: (
 			<React.Fragment>
-				<div><p>I am only a contributor to this organization, but I am proud to be a part of it. Ruby for Good organization, is a group of Ruby developers who come together to build open source technology solutions for non-profits. Below are some of the projects I am active in.</p></div>
+				<div>
+					<h1>Welcome to My Open-Source Journey</h1>
+					<p> This blog is where I share updates on my latest open-source contributions and activities. I’m a proud contributor to the Ruby for Good organization—a passionate group of Ruby developers who collaborate to create open-source technology solutions for nonprofits. While I’m just one part of this amazing community, I’m excited to play a role in building impactful tools. Below, you’ll find some of the projects I’m actively involved in. Check back for updates as I continue to contribute!
+					</p></div>
 				<div className="article-content">
-					<h1>Human Essentials</h1>
+					<h2>Human Essentials</h2>
 					<div className="paragraph">
 						<p>	Human Essentials is an inventory management system built to address the needs of Diaper Banks as directly and explicitly as possible and adapted to meet the needs of other Essentials Banks.
 						Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations.
@@ -52,15 +55,15 @@ function article_1() {
 					</div>
 					<img
 						src="/human.png"
-						alt="fortnite-tracker"
-						className="fortnite-tracker"
+						alt="human-essentials"
+						className="human-essentials"
 						style={{ width: "100%" }}
 					/>
 				</div>
 
 
 				<div className="article-content">
-					<h1>Homeward Tails</h1>
+					<h2>Homeward Tails</h2>
 					<div className="paragraph">
 					<p>
 						Homeward Tails is derived from the Baja Pet Rescue Dog Adoption Application created by kasugaijin(GitHub) who wanted to give back to the grassroots organization 
@@ -68,19 +71,44 @@ function article_1() {
 						Pet Rescue is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
 					</p>
 			<ul>
-				<li><strong><a href="https://pet-rescue-f6df7ce0e850.herokuapp.com/">Check out the app here!</a></strong></li>
+				<li><strong><a href="https://homewardtails.org/">Check out the app here!</a></strong></li>
 			</ul>
 					<h2>List of Pull Request/Contributions:</h2>
 					<ul>
 					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/788">User Authentication</a></strong>: This PR involved adding user authentication to the Application Controller rather than calling it separately in every controller. It was challenging to track where existing tests needed updating throughout the application. It also required diving headfirst into Devise so the application could properly redirect unauthenticated users!</li>
 					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/856">Creating a new model</a></strong>: This PR involved creating the FormSubmission model and handling everything that came with it. I wrote the migrations, updated the database seeds, and modified FactoryBot to include the new model. I also updated all relevant associations in existing models like AdopterApplication. The seed file was adjusted to include the new data, and I created the necessary factories. Along the way, I updated the test suite to reflect these changes, resolving any seeding issues and test failures that popped up. </li>
 					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/873">Updating an existing model</a></strong>: This PR involved updating the SumittedAnswer model. This included changing its name within the database. I wrote the migrations, updated the existing and new references , and modified existing tests. I also updated all relevant associations in existing models. </li>
+					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/pull/1388">Duplicating copy right year</a></strong>: This PR involved a bug fix. The copyright year for the application would duplicate when navigating back from certain pages. Initially thought it could of been a Turbo issue, but it was the script for generating the data(Javascript) causing the issue. A simple `Time.now.year` fixed the bug. Thanks Ruby!  </li>
+					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/issues/1227">Devise and case statements</a></strong>: This PR involved working with Devise and case statements! It utilized Devise's after_update_path_for method to handle user redirection after updating their registration. Using a case statement made the conditional simple and readable. It was also the first time I wrote a controller test for a feature that was in production!  </li>
 					</ul>
 					</div>
 					<img
 						src="/petrescue.png"
-						alt="fortnite-tracker"
-						className="fortnite-tracker"
+						alt="homewardtails"
+						className="homewardtails"
+						style={{ width: "100%" }}
+					/>
+				</div>
+
+				<div className="article-content">
+					<h2>SKillrx</h2>
+					<div className="paragraph">
+					<p>
+					SkillRX is a Ruby on Rails content management application which will allow medical training providers to upload and manage content which will 
+					be delivered to Raspberry Pi and other computers in low-resource areas for use by medical professionals at these locations.
+					</p>
+			<ul>
+				<li><strong><a href="https://skilled-695d172083af.herokuapp.com/">Check out the app here!</a></strong></li>
+			</ul>
+					<h2>List of Pull Request/Contributions:</h2>
+					<ul>
+					<li><strong><a href="https://github.com/rubyforgood/skillrx/pull/123"> Parallel form labels and internationalization (I18n)</a></strong>: This PR implemented the start of I18n and the locales file on a new project! Pretty cool. Using the locales to configure uniform and dynamic button naming across the application. Which establishes easier maintainability, cleaner views, and implements DRY principles</li>
+					</ul>
+					</div>
+					<img
+						src="/skillrx.png"
+						alt="skillrx"
+						className="skillrx"
 						style={{ width: "100%" }}
 					/>
 				</div>

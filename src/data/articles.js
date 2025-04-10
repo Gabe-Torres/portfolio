@@ -52,8 +52,8 @@ function article_1() {
 					</div>
 					<img
 						src="/human.png"
-						alt="fortnite-tracker"
-						className="fortnite-tracker"
+						alt="human-essentials"
+						className="human-essentials"
 						style={{ width: "100%" }}
 					/>
 				</div>

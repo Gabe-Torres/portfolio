@@ -3,7 +3,7 @@ import React from "react";
 function article_1() {
 	return {
 		date: "2025",
-		title: "Ruby for Good - Dedicated To Making The World Gooder",
+		title: "Open Source with Ruby for Good - Dedicated To Making The World Gooder",
 		description:
 			"Ruby for Good is a volunteer-driven nonprofit that develops specialized technology" +
 			"an software solutions for nonprofit organizations to bolster their critical mission.",
@@ -34,9 +34,12 @@ function article_1() {
 				`,
 		body: (
 			<React.Fragment>
-				<div><p>I am only a contributor to this organization, but I am proud to be a part of it. Ruby for Good organization, is a group of Ruby developers who come together to build open source technology solutions for non-profits. Below are some of the projects I am active in.</p></div>
+				<div>
+					<h1>Welcome to My Open-Source Journey</h1>
+					<p> This blog is where I share updates on my latest open-source contributions and activities. I’m a proud contributor to the Ruby for Good organization—a passionate group of Ruby developers who collaborate to create open-source technology solutions for nonprofits. While I’m just one part of this amazing community, I’m excited to play a role in building impactful tools. Below, you’ll find some of the projects I’m actively involved in. Check back for updates as I continue to contribute!
+					</p></div>
 				<div className="article-content">
-					<h1>Human Essentials</h1>
+					<h2>Human Essentials</h2>
 					<div className="paragraph">
 						<p>	Human Essentials is an inventory management system built to address the needs of Diaper Banks as directly and explicitly as possible and adapted to meet the needs of other Essentials Banks.
 						Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations.
@@ -60,7 +63,7 @@ function article_1() {
 
 
 				<div className="article-content">
-					<h1>Homeward Tails</h1>
+					<h2>Homeward Tails</h2>
 					<div className="paragraph">
 					<p>
 						Homeward Tails is derived from the Baja Pet Rescue Dog Adoption Application created by kasugaijin(GitHub) who wanted to give back to the grassroots organization 
@@ -88,7 +91,7 @@ function article_1() {
 				</div>
 
 				<div className="article-content">
-					<h1>SKillrx</h1>
+					<h2>SKillrx</h2>
 					<div className="paragraph">
 					<p>
 					SkillRX is a Ruby on Rails content management application which will allow medical training providers to upload and manage content which will 

@@ -86,6 +86,29 @@ function article_1() {
 						style={{ width: "100%" }}
 					/>
 				</div>
+
+				<div className="article-content">
+					<h1>SKillrx</h1>
+					<div className="paragraph">
+					<p>
+					SkillRX is a Ruby on Rails content management application which will allow medical training providers to upload and manage content which will 
+					be delivered to Raspberry Pi and other computers in low-resource areas for use by medical professionals at these locations.
+					</p>
+			<ul>
+				<li><strong><a href="https://skilled-695d172083af.herokuapp.com/">Check out the app here!</a></strong></li>
+			</ul>
+					<h2>List of Pull Request/Contributions:</h2>
+					<ul>
+					<li><strong><a href="https://github.com/rubyforgood/skillrx/pull/123"> Parallel form labels and internationalization (I18n)</a></strong>: This PR implemented the start of I18n and the locales file on a new project! Pretty cool. Using the locales to configure uniform and dynamic button naming across the application. Which establishes easier maintainability, cleaner views, and implements DRY principles</li>
+					</ul>
+					</div>
+					<img
+						src="/skillrx.png"
+						alt="skillrx"
+						className="skillrx"
+						style={{ width: "100%" }}
+					/>
+				</div>
 			</React.Fragment>
 		),
 	};

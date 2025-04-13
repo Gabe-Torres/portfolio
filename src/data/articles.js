@@ -36,14 +36,16 @@ function article_1() {
 			<React.Fragment>
 				<div>
 					<h1>Welcome to My Open-Source Journey</h1>
-					<p> This blog is where I share updates on my latest open-source contributions and activities. I’m a proud contributor to the Ruby for Good organization—a passionate group of Ruby developers who collaborate to create open-source technology solutions for nonprofits. While I’m just one part of this amazing community, I’m excited to play a role in building impactful tools. Below, you’ll find some of the projects I’m actively involved in. Check back for updates as I continue to contribute!
+					<p> Hi, I’m a junior engineer passionate about creating and maintaining open-source solutions that matter. At Ruby for Good, I work alongside talented Ruby developers to build technology that empowers nonprofits.
+							Diving into async collaboration, refining pull requests, and learning from thoughtful code reviews has shaped me as a developer. This blog shares my journey and contributions to impactful projects. 
+							Explore my work below, and check back to see how I’m growing!
 					</p></div>
 				<div className="article-content">
 					<h2>Human Essentials</h2>
 					<div className="paragraph">
 						<p>	Human Essentials is an inventory management system built to address the needs of Diaper Banks as directly and explicitly as possible and adapted to meet the needs of other Essentials Banks.
 						Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations.
-						Like any non-profit, they also need to perform reports on this data and have day-to-day operational information they need. This application aims to serve those needs and facilitate the general operations of the Diaper Banks (e.g., using barcode readers, scale weighing, inventory audits)</p>
+						</p>
 						<ul>
 						<li><strong><a href="https://humanessentials.app/">Check out the app here!</a></strong></li>
 					</ul>
@@ -66,9 +68,9 @@ function article_1() {
 					<h2>Homeward Tails</h2>
 					<div className="paragraph">
 					<p>
-						Homeward Tails is derived from the Baja Pet Rescue Dog Adoption Application created by kasugaijin(GitHub) who wanted to give back to the grassroots organization 
+						Homeward Tails is derived from the Baja Pet Rescue Dog Adoption Application created by @kasugaijin(GitHub) who wanted to give back to the grassroots organization 
 						from where he adopted his dog in Mexico by building them a web application. 
-						Pet Rescue is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
+						It is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
 					</p>
 			<ul>
 				<li><strong><a href="https://homewardtails.org/">Check out the app here!</a></strong></li>

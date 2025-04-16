@@ -64,7 +64,7 @@ const INFO = {
 			githubRepo: "https://github.com/orgs/Spell-Binder-V1/repositories",
 			images: ['../spellbinder1.png', '../spellbinder2.png', '../spellbinder3.png', '../spellbinder4.png'],
 		},
-
+		
 		{
 			title: "Watsup",
 			description:
@@ -76,15 +76,27 @@ const INFO = {
 			githubRepo: "https://github.com/Gabe-Torres/blogger",
 			images: ['../watsup2.png', '../watsup3.png', '../watsup4.png', '../watsup5.png'],
 		},
-
+		
 		{
 			title: "Sweater Weather",
 			description:
-				"This service aggregates data from external sources, requires user authentication, offers CRUD operations, error handling, and undergoes extensive testing, including mocking external APIs with VCR and utilizing Postman-friendly test automation.",
+			"This service aggregates data from external sources, requires user authentication, offers CRUD operations, error handling, and undergoes extensive testing, including mocking external APIs with VCR and utilizing Postman-friendly test automation.",
 			TechStack: "Tech-Stack and Tools: Ruby on Rails, Heroku, CircleCI, Git, GitHub, Postman, PostgreSQL ",
 			logo: "../sweater-weather.jpg",
 			githubRepo: "https://github.com/Gabe-Torres/sweater-weather",
 			images: ["../sweaterweather1.png", "../sweaterweather2.png", "../sweaterweather3.png", "../sweaterweather4.png"],
+		},
+		
+		{
+			title: "Homeward Tails",
+			description:
+			"I am only a volunteer contributor on this impactful open source application. Homeward Tails is free-to-use application built for pet rescue organizations that enables you to manage pets, people, adoptions, and fosters with ease. Read about my part more in my open source blog!",
+			TechStack: "Tech-Stack and Tools: Ruby on Rails, Minitest, Git, GitHub, PostgreSQL, Heroku ",
+			linkText: "View Project",
+			link: "https://homewardtails.org/",
+			logo: "../homewardtailslogo.png",
+			githubRepo: "https://github.com/rubyforgood/homeward-tails",
+			images: ["../homewardtails1.png", "../homewardtails2.png", "../homewardtails3.png", "../homewardtails4.png", "../homewardtails5.png"],
 		},
 	],
 };

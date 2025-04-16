@@ -36,23 +36,24 @@ function article_1() {
 			<React.Fragment>
 				<div>
 					<h1>Welcome to My Open-Source Journey</h1>
-					<p> Hi, I’m a junior engineer passionate about creating and maintaining open-source solutions that matter. At Ruby for Good, I work alongside talented Ruby developers to build technology that empowers nonprofits.
-							Diving into async collaboration, refining pull requests, and learning from thoughtful code reviews has shaped me as a developer. This blog shares my journey and contributions to impactful projects. 
-							Explore my work below, and check back to see how I’m growing!
+					<p> This blog is where I share updates on my latest open-source contributions and activities. I’m a proud contributor to Ruby for Good, an organization that collaborates with nonprofits to create open-source technology solutions that are mission-critical.
+						While I’m just one part of this amazing community, I’m excited to play a role in building impactful tools. So far my biggest takeaways from contributing to open-source as a junior is the importance of asking questions, clear communication in PRs, and following a repo’s code guidelines. 
+						It is exciting to get exposure exploring large pre-existing codebases while helping non-profit organizations and users!  Below, you’ll find some of the projects I’m actively involved in. Check back for updates as I continue to contribute!
 					</p></div>
 				<div className="article-content">
 					<h2>Human Essentials</h2>
 					<div className="paragraph">
 						<p>	Human Essentials is an inventory management system built to address the needs of Diaper Banks as directly and explicitly as possible and adapted to meet the needs of other Essentials Banks.
-						Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations.
+								Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations. Like any non-profit, they also need to perform reports on this data and have day-to-day operational information they need.
+								This application aims to serve those needs and facilitate the general operations of the Diaper Banks (e.g., using barcode readers, scale weighing, inventory audits)
 						</p>
 						<ul>
 						<li><strong><a href="https://humanessentials.app/">Check out the app here!</a></strong></li>
 					</ul>
 					<h2>List of Pull Request/Contributions:</h2>
 					<ul>
-					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the CRUD method, create, for a model in the application's database. It was a great learning experience to dive into a new codebase and communicate with other devs.</li>
-					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins in the app to save time and not have to correct any incorrect url formatting. </li>
+					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the create method, for a model in the application's database. It was a great learning experience to dive into a new codebase, refresh on CRUD basics, and communicate with other devs through a PR review. </li>
+					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins using the app to save time by not having to correct any incorrect url formatting.					</li>
 					</ul>
 					</div>
 					<img
@@ -68,20 +69,20 @@ function article_1() {
 					<h2>Homeward Tails</h2>
 					<div className="paragraph">
 					<p>
-						Homeward Tails is derived from the Baja Pet Rescue Dog Adoption Application created by @kasugaijin(GitHub) who wanted to give back to the grassroots organization 
-						from where he adopted his dog in Mexico by building them a web application. 
-						It is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
+					Homeward Tails is derived from the Baja Pet Rescue Dog Adoption Application created by kasugaijin(GitHub) who wanted to give back to the grassroots organization that he adopted his dog in Mexico from, by building a web application.
+					Pet Rescue is an application that makes it easy to connect shelters with people who are looking to adopt or foster pets.
 					</p>
 			<ul>
 				<li><strong><a href="https://homewardtails.org/">Check out the app here!</a></strong></li>
 			</ul>
 					<h2>List of Pull Request/Contributions:</h2>
 					<ul>
-					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/788">User Authentication</a></strong>: This PR involved adding user authentication to the Application Controller rather than calling it separately in every controller. It was challenging to track where existing tests needed updating throughout the application. It also required diving headfirst into Devise so the application could properly redirect unauthenticated users!</li>
-					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/856">Creating a new model</a></strong>: This PR involved creating the FormSubmission model and handling everything that came with it. I wrote the migrations, updated the database seeds, and modified FactoryBot to include the new model. I also updated all relevant associations in existing models like AdopterApplication. The seed file was adjusted to include the new data, and I created the necessary factories. Along the way, I updated the test suite to reflect these changes, resolving any seeding issues and test failures that popped up. </li>
-					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/873">Updating an existing model</a></strong>: This PR involved updating the SumittedAnswer model. This included changing its name within the database. I wrote the migrations, updated the existing and new references , and modified existing tests. I also updated all relevant associations in existing models. </li>
-					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/pull/1388">Duplicating copy right year</a></strong>: This PR involved a bug fix. The copyright year for the application would duplicate when navigating back from certain pages. Initially thought it could of been a Turbo issue, but it was the script for generating the data(Javascript) causing the issue. A simple `Time.now.year` fixed the bug. Thanks Ruby!  </li>
-					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/issues/1227">Devise and case statements</a></strong>: This PR involved working with Devise and case statements! It utilized Devise's after_update_path_for method to handle user redirection after updating their registration. Using a case statement made the conditional simple and readable. It was also the first time I wrote a controller test for a feature that was in production!  </li>
+					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/788">User Authentication</a></strong>: This PR involved adding user authentication to the Application Controller, so that we could rely on inheritance, rather than calling it separately in every controller. It was challenging to track where existing tests needed updating throughout the application. It also required diving headfirst into Devise so the application could properly redirect unauthenticated users!</li>
+					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/856">Creating a new model</a></strong>:  This PR involved creating the FormSubmission model and handling everything that came with it. I wrote the migrations, updated the database seeds, and modified FactoryBot to include the new model. I also updated all relevant associations in existing models like AdopterApplication. The seed file was adjusted to include the new data, and I created the necessary factories. Along the way, I updated the test suite to reflect these changes, resolving any test failures that popped up. </li>
+					<li><strong><a href="https://github.com/rubyforgood/pet-rescue/pull/873">Updating an existing model</a></strong>: This PR involved updating the Submitted Answer model. This included renamings the model within the database. I wrote the migrations, updated the existing and new references , and modified existing tests. I also updated all relevant associations in existing models. </li>
+					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/pull/1388">Duplicating copy right year</a></strong>: This PR involved a bug fix. The copyright year for the application would duplicate when navigating back from certain pages. Initially, I thought it could have been  a Turbo issue, but it was the script for generating the data(Javascript) causing the issue. A simple `Time.now.year` fixed the bug. Thanks Ruby!  </li>
+					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/pull/1329">Devise and case statements</a></strong>: This PR involved working with Devise and case statements! It utilized Devise's after_update_path_for method to handle user redirection after updating their registration. Using a case statement made the conditional simple and readable. It was also the first time I wrote a controller test for a feature that was in production! </li>
+					<li><strong><a href="https://github.com/rubyforgood/homeward-tails/pull/1407">Relocating buttons and partials</a></strong>: This PR involved relocating the button for signing in with Google OAuth! Some users rather have the option prior to filling out the sign in form rather than afterwards at the bottom of the page. It implements DRY principles by making a partial to render the Google OAuth button instead of having repetitive code. Using a partial is a great why to add reusability, and keeps views looking clean and readable </li>
 					</ul>
 					</div>
 					<img
@@ -96,8 +97,8 @@ function article_1() {
 					<h2>SKillrx</h2>
 					<div className="paragraph">
 					<p>
-					SkillRX is a Ruby on Rails content management application which will allow medical training providers to upload and manage content which will 
-					be delivered to Raspberry Pi and other computers in low-resource areas for use by medical professionals at these locations.
+					SkillRX is a Ruby on Rails content management application which will allow medical training providers to upload and manage content,
+					which will be delivered to Raspberry Pi and other computers in low-resource areas for use by medical professionals at these locations.
 					</p>
 			<ul>
 				<li><strong><a href="https://skilled-695d172083af.herokuapp.com/">Check out the app here!</a></strong></li>

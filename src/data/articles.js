@@ -41,31 +41,6 @@ function article_1() {
 						It is exciting to get exposure exploring large pre-existing codebases while helping non-profit organizations and users!  Below, you’ll find some of the projects I’m actively involved in. Check back for updates as I continue to contribute!
 					</p></div>
 				<div className="article-content">
-					<h2>Human Essentials</h2>
-					<div className="paragraph">
-						<p>	Human Essentials is an inventory management system built to address the needs of Diaper Banks as directly and explicitly as possible and adapted to meet the needs of other Essentials Banks.
-								Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations. Like any non-profit, they also need to perform reports on this data and have day-to-day operational information they need.
-								This application aims to serve those needs and facilitate the general operations of the Diaper Banks (e.g., using barcode readers, scale weighing, inventory audits)
-						</p>
-						<ul>
-						<li><strong><a href="https://humanessentials.app/">Check out the app here!</a></strong></li>
-					</ul>
-					<h2>List of Pull Request/Contributions:</h2>
-					<ul>
-					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the create method, for a model in the application's database. It was a great learning experience to dive into a new codebase, refresh on CRUD basics, and communicate with other devs through a PR review. </li>
-					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins using the app to save time by not having to correct any incorrect url formatting.					</li>
-					</ul>
-					</div>
-					<img
-						src="/human.png"
-						alt="human-essentials"
-						className="human-essentials"
-						style={{ width: "100%" }}
-					/>
-				</div>
-
-
-				<div className="article-content">
 					<h2>Homeward Tails</h2>
 					<div className="paragraph">
 					<p>
@@ -89,6 +64,30 @@ function article_1() {
 						src="/petrescue.png"
 						alt="homewardtails"
 						className="homewardtails"
+						style={{ width: "100%" }}
+					/>
+				</div>
+
+				<div className="article-content">
+					<h2>Human Essentials</h2>
+					<div className="paragraph">
+						<p>	Human Essentials is an inventory management system built to address the needs of Diaper Banks as directly and explicitly as possible and adapted to meet the needs of other Essentials Banks.
+								Essentials Banks maintain inventory, receive donations and other human essentials supplies (e.g. diapers, period supplies), and issue distributions to community partner organizations. Like any non-profit, they also need to perform reports on this data and have day-to-day operational information they need.
+								This application aims to serve those needs and facilitate the general operations of the Diaper Banks (e.g., using barcode readers, scale weighing, inventory audits)
+						</p>
+						<ul>
+						<li><strong><a href="https://humanessentials.app/">Check out the app here!</a></strong></li>
+					</ul>
+					<h2>List of Pull Request/Contributions:</h2>
+					<ul>
+					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the create method, for a model in the application's database. It was a great learning experience to dive into a new codebase, refresh on CRUD basics, and communicate with other devs through a PR review. </li>
+					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins using the app to save time by not having to correct any incorrect url formatting.					</li>
+					</ul>
+					</div>
+					<img
+						src="/human.png"
+						alt="human-essentials"
+						className="human-essentials"
 						style={{ width: "100%" }}
 					/>
 				</div>

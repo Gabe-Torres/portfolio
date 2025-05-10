@@ -82,6 +82,7 @@ function article_1() {
 					<ul>
 					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the create method, for a model in the application's database. It was a great learning experience to dive into a new codebase, refresh on CRUD basics, and communicate with other devs through a PR review. </li>
 					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins using the app to save time by not having to correct any incorrect url formatting.					</li>
+					{/* <li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/5189">Static Error Pages</a></strong>: This PR involved 	</li> */}
 					</ul>
 					</div>
 					<img
@@ -105,6 +106,7 @@ function article_1() {
 					<h2>List of Pull Request/Contributions:</h2>
 					<ul>
 					<li><strong><a href="https://github.com/rubyforgood/skillrx/pull/123"> Parallel form labels and internationalization (I18n)</a></strong>: This PR implemented the start of I18n and the locales file on a new project! Pretty cool. Using the locales to configure uniform and dynamic button naming across the application. Which establishes easier maintainability, cleaner views, and implements DRY principles</li>
+					{/* <li><strong><a href="https://github.com/rubyforgood/skillrx/issues/120"> CSV Imports </a></strong>: This PR implemented </li> */}
 					</ul>
 					</div>
 					<img

@@ -153,10 +153,11 @@ const Homepage = () => {
 							<h1>Tech Stack</h1>
 									<Technologies />
 							</div>
-							<div className="exploring-container">
+							{/* <div className="exploring-container">
 									<h3><Exploring /> </h3>
-							</div>
+							</div> */}
 						</div>
+						
 						<div className="homepage-projects">
 						<h1>Projects</h1>
 							<AllProjects />

@@ -13,9 +13,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Backend Software Engineer",
+		title: "Software Engineer",
 		description:
-			"I'm a Backend Software Engineer with a solid foundation in social science and a background in customer service. My skill set revolves around collaboration, strategic thinking, and software development. I'm motivated to apply my problem-solving skills and tech passion to projects that make a meaningful impact.",
+			"I'm a Software Engineer with a solid foundation in social science and a background in customer service. My skill set revolves around collaboration, strategic thinking, and software development. I'm motivated to apply my problem-solving skills and tech passion to projects that make a meaningful impact.",
 	},
 
 	about: {

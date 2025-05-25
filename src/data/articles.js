@@ -116,6 +116,28 @@ function article_1() {
 						style={{ width: "100%" }}
 					/>
 				</div>
+
+				<div className="article-content">
+					<h2>Casa</h2>
+					<div className="paragraph">
+					<p>
+					CASA exists to cultivate and supervise volunteers carrying out this work with county level chapters (operating relatively independently of each other) across the country.
+					</p>
+			<ul>
+				<li><strong><a href="https://casavolunteertracking.org/">Check out the app here!</a></strong></li>
+			</ul>
+					<h2>List of Pull Request/Contributions:</h2>
+					<ul>
+					<li><strong><a href="https://github.com/rubyforgood/casa/pull/6398"> Rubocop config Tune Up (I18n)</a></strong>: This PR implemented an update for the Rubocop config file to specify "plugins" instead of "require" to ensure all extensions are supported properly.</li>
+					</ul>
+					</div>
+					<img
+						src="/casa.png"
+						alt="casa"
+						className="casa"
+						style={{ width: "100%" }}
+					/>
+				</div>
 			</React.Fragment>
 		),
 	};

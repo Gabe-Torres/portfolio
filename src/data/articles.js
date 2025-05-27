@@ -82,7 +82,7 @@ function article_1() {
 					<ul>
 					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4374">Error Handling</a></strong>: This PR involved improving the error handling within the create method, for a model in the application's database. It was a great learning experience to dive into a new codebase, refresh on CRUD basics, and communicate with other devs through a PR review. </li>
 					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/4427">Adding Formatting Validation</a></strong>: This PR involved adding validation for a URL/website attribute in one of the models, along with strict formatting. This allowed admins using the app to save time by not having to correct any incorrect url formatting.					</li>
-					{/* <li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/5189">Static Error Pages</a></strong>: This PR involved 	</li> */}
+					<li><strong><a href="https://github.com/rubyforgood/human-essentials/pull/5189">Static Error Pages</a></strong>: This PR adds the ability for users to sign out from static error pages like 403, 404, 422, 500. No Javascript involved. Thanks Devise :p 	</li>
 					</ul>
 					</div>
 					<img

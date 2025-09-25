@@ -113,7 +113,7 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-									<a href="/GTRESUME.pdf" target="_blank"> My Resume</a>
+									<a href="/GTRESUME.pdf" target="_blank"> Checkout my professional experience here! </a>
 						{/* <iframe src="/GTRESUME.pdf#page=1&view=FitH" type="application/pdf" width="600" height="600">  </iframe> */}
 						<div className="homepage-socials">
 							<a

@@ -40,13 +40,6 @@ const Works = () => {
 								</div>
 								<div className="work-duration"></div>
 							</div>
-
-							<div className="work">
-								<div className="work-title">Supermarkets</div>
-								<div className="work-subtitle">
-								</div>
-								<div className="work-duration"></div>
-							</div>
 					</div>
 
 					
